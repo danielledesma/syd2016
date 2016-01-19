@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^db/(.*)  https://dl.dropboxusercontent.com/u/328684/$1 [R=301,L]
